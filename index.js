@@ -15,7 +15,7 @@ var event = {
 
         var index = this._event[eventName].indexOf(callback);
         if (index !== -1) {
-            this._event[eventName] = this._event[eventName].splice(index, 1)
+            this._event[eventName].splice(index, 1)
         }
     },
 
